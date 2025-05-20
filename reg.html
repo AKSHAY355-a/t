@@ -1,0 +1,271 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<style>
+
+body
+
+{
+
+font-family:arial;
+
+padding:300px;
+
+}
+
+*{
+
+box-sizing:border box;
+
+}
+
+input[type=text],select,textarea
+
+{
+
+width:100%;
+
+padding:10px;
+
+border:1px solid #ccc;
+
+border-radius:4px;
+
+box-sizing:border-box;
+
+margin-top:16px;
+resize:vertical;
+
+}
+
+input[type=range],select,textarea
+
+{
+
+width:100%;
+
+padding:10px;
+
+border:1px solid #ccc;
+
+border-radius:4px;
+
+box-sizing:border-box;
+
+margin-top:10px;
+
+resize:vertical;
+
+}
+
+input[type=file],select,textarea
+
+{
+
+background-color:white;
+
+width:100%;
+
+padding:10px;
+
+border:1px solid#ccc;
+
+border-radius:4px;
+
+box-sizing:border-box;
+
+margin-top:16px;
+
+resize:vertical;
+
+}
+
+input[type=password],select,textarea
+
+{
+
+width:100%;
+
+padding:10px;
+
+border:1px solid#ccc;
+
+border-radius:4px;
+
+box-sizing:border-box;
+
+margin-top:16px;
+
+resize:vertical;
+
+}
+
+input[type=url],select,textarea
+
+{
+
+width:100%;
+
+padding:10px;
+
+border:1px solid#ccc;
+
+border-radius:4px;
+
+box-sizing:border-box;
+
+margin-top:16px;
+
+resize:vertical;
+
+}
+input[type=tel],select,textarea
+
+{
+
+width:100%;
+
+padding:10px;
+
+border:1px solid#ccc;
+
+border-radius:4px;
+
+box-sizing:border-box;
+
+margin-top:16px;
+
+resize:vertical;
+
+}
+
+input[type=submit]
+
+{
+
+background-color:green;
+
+color:white;
+
+padding:12px 20px;
+
+border:none;
+
+border-radius:4px;
+
+cursor:pointer;
+
+}
+
+input[type=submit]:hover
+
+{
+
+background-color:red;
+
+}
+
+input[type=reset]
+
+{
+
+background-color:green;
+
+color:white;
+
+padding:12px 20px;
+
+border:none;
+
+border-radius:4px;
+
+cursor:pointer;
+
+}
+
+input[type=reset]:hover
+
+{
+
+background-color:red;
+
+}
+
+.container
+
+{
+
+border-radius:5px;
+
+background-color:lightgrey;
+
+padding:20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<center><h1 style="color:green">Registration Form</h1></center>
+
+<div class="container">
+
+<form>
+
+<label for="fname">First Name</label>
+
+<input type="text" id="fname" name="fname" placeholder="Your name">
+
+<label for="password">Password</label>
+
+<input type="password" id="password" name="password" placeholder="Enter ypur 
+
+password" required>
+
+<label for="password">Confirm Password</label>
+
+<input type="password" id="password" name="password" placeholder="Enter your 
+
+password" required>
+
+<label for="Contact Number">Contact Number</label>
+
+<input type="tel" id="Contact Number" name="phone" pattern="[0-9]{10}" 
+
+placeholder="Enter your number">
+
+<label for="Skill range">Skill range</label>
+
+<input type="range" id="Skill" name="Skill">
+
+<label for="email">Email</label>
+
+<input type="text" id="email" name="email" placeholder="Enter your email">
+
+<label for="url">Profile url</label>
+
+<input type="url" id="url" name="url" placeholder="Enter your url">
+
+<label for="file">Resume</label>
+
+<input type="file" id="file" name="file">
+
+<center><input type="submit" value="submit">
+
+<input type="reset" value="reset">
+
+</center>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
